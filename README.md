@@ -1,4 +1,4 @@
 MuttrChat
 =========
 
-A x-platform Muttr desktop client
+A cross platform Muttr desktop client
