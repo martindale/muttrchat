@@ -1,2 +1,4 @@
-# muttrchat
-cross-platform muttr desktop client
+MuttrChat
+=========
+
+A x-platform Muttr desktop client

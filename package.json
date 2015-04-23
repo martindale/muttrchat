@@ -1,0 +1,42 @@
+{
+  "name": "muttrchat",
+  "version": "0.0.0",
+  "description": "cross-platform muttr desktop client",
+  "main": "src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muttr/muttrchat.git"
+  },
+  "scripts": {
+    "start": "node script/start.js",
+    "setup": "node script/download.js",
+    "build": "node script/build.js",
+    "bundle": "node script/bundle.js"
+  },
+  "keywords": [
+    "muttr",
+    "client",
+    "desktop",
+    "chat"
+  ],
+  "author": "Gordon Hall <gordon@gordonwritescode.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/muttr/muttrchat/issues"
+  },
+  "devDependencies": {
+    "node-webkit-builder": "^1.0.8"
+  },
+  "homepage": "https://github.com/muttr/muttrchat",
+  "window": {
+    "title": "MuttrChat",
+    "icon": "src/img/muttr.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1024,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 1024,
+    "min_height": 600
+  }
+}

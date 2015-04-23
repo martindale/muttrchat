@@ -1,0 +1,29 @@
+{
+  "name": "muttrchat",
+  "version": "0.0.0",
+  "homepage": "https://github.com/muttr/muttrchat",
+  "authors": [
+    "Gordon Hall <gordon@gordonwritescode.com>"
+  ],
+  "description": "cross-platform muttr desktop client",
+  "main": "client/index.html",
+  "keywords": [
+    "muttr",
+    "desktop",
+    "client",
+    "chat"
+  ],
+  "license": "GPLv3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mousetrap": "~1.5.2",
+    "ember": "~1.11.3"
+  }
+}
